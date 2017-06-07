@@ -111,12 +111,12 @@ var examples;
                     this.xtarget = 320;
                     this.ytarget = 115;
                     this.nectar = 95;
-                    this.task = "refill nectar " + this.nectar + "%";
+                    this.task = "refill nectar ";
                 }
                 else {
                     this.xposition += xDiff * this.speed;
                     this.yposition += yDiff * this.speed;
-                    this.task = "fly home" + "  " + this.nectar + "%";
+                    this.task = "fly home";
                 }
             }
             if (this.gohome == false && this.stopp == 0) {
@@ -127,26 +127,27 @@ var examples;
                     this.gohome = true;
                     this.settargetflower();
                     this.nectar = 5;
-                    this.task = "vomit " + this.nectar + "%";
+                    this.task = "vomit ";
                 }
                 else {
                     this.xposition += xDiff * this.speed;
                     this.yposition += yDiff * this.speed;
-                    this.task = "fly to Flower" + String(this.random + 1) + "  " + this.nectar + "%";
+                    this.task = "fly to Flower" + String(this.random + 1) + "  ";
                 }
             }
             this.draw();
             //update task
             if (this.gohome == true && this.stopp > 0) {
                 this.nectar = this.nectar + 5;
-                this.task = "refill nectar " + this.nectar + "%";
+                this.task = "refill nectar ";
             }
             if (this.gohome == false && this.stopp > 0) {
                 this.nectar = this.nectar - 5;
-                this.task = "vomit " + this.nectar + "%";
+                this.task = "vomit ";
             }
             let beeid = String(_i + 1);
-            document.getElementById(beeid).innerHTML = this.task;
+            document.getElementById(beeid + "task").innerHTML = this.task;
+            document.getElementById(beeid + "nectar").innerHTML = this.nectar + "%";
         }
     }
     examples.Honeybee = Honeybee;

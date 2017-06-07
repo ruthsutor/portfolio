@@ -1,10 +1,11 @@
-canvas {
-	display: block;
-	margin-left: auto;
-    margin-right: auto;
+body{
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
+
 #light{
-	margin-top: 10px;
+	margin-top: 20px;
 	margin-left: 15px;
 	width: 60px;
 }
@@ -15,6 +16,9 @@ nav {
 	font-size: 20pt;
     text-align: center;
 	position: absolute;
+}
+#colored{
+	color:#ff5050;
 }
 a {
 	text-decoration: none;
@@ -27,4 +31,17 @@ a:visited {
 header{
 	position: fixed;
 	width: 100%;
+	top: 0px;
+}
+/*EXAMPLE1*/
+#example1{
+	margin-top: 100px;
+	
+}
+h1{
+	text-align: center;
+	font-family: 'Anton', sans-serif;
+}
+tr{
+	text-align: center;
 }
