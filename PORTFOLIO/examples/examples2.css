@@ -26,7 +26,7 @@ nav {
 #color {
 	color:#80c1ff;
 }
-#code{
+#design{
 	color:#80c1ff;
 }
 a {
@@ -51,52 +51,13 @@ h1{
 	text-align: center;
 	font-family: 'Anton', sans-serif;
 }
-tr{
-	text-align: center;
-}
-table{
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-#text1{
-	position: absolute;
-	width: 200px;
-	left: 50%;
-	margin-left: 230px;
-	margin-top: -250px;
-}
+
 /*EXAMPLE2*/
 #example2{
 	text-align: center;
 	margin-top: 50px;
 }
-#icecream{
-	margin-top:5px;
-	font-family: 'Montserrat', sans-serif;
-	color:#ffcce6;
-	font-size: 40pt;
-}
-#govisit{
-	font-family: 'Amatic SC', cursive;
-    background-color: #ffffff; 
-    border: solid 1px;
-    color: #000000;
-    padding: 5px 9px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 25px;
-    margin-top: -50px;
-}
-#text2{
-	position: absolute;
-	width: 200px;
-	text-align: right;
-	left: 50%;
-	margin-left: -300px;
-	margin-top: -150px;
-}
+
 @media screen  and (max-width: 580px){
 header{
 	background-color: white;
