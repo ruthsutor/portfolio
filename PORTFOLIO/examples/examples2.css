@@ -46,6 +46,7 @@ header{
 .example1{
 	margin-top: 100px;
 	text-align: center;
+	
 }
 h1{
 	text-align: center;
@@ -54,13 +55,30 @@ h1{
 #beer{
 	max-width: 350px;
 }
-
-/*EXAMPLE2*/
-#example2{
-	text-align: center;
-	margin-top: 50px;
+#text1{
+	position: absolute;
+	width: 200px;
+	text-align: left;
+	left: 50%;
+	margin-left: 200px;
+	margin-top: -260px;
 }
-
+#mermaid{
+	width: 300px;
+}
+/*EXAMPLE2*/
+.example2{
+	margin-top: 50px;
+	text-align: center;
+}
+#text2{
+	position: absolute;
+	width: 200px;
+	text-align: right;
+	left: 50%;
+	margin-left: -380px;
+	margin-top: -260px;
+}
 @media screen  and (max-width: 580px){
 header{
 	background-color: white;
