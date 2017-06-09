@@ -9,6 +9,18 @@ body{
 	margin-left: 15px;
 	width: 60px;
 }
+#blue{
+	position: absolute;
+	width: 500px;
+	left: 0;
+	bottom: 0;
+}
+body div{
+	text-align: center
+}
+#html{
+	margin-top: 100px;
+}
 nav {
 	margin-left: 90px;
 	top: 35px;
