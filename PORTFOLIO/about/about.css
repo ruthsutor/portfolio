@@ -33,25 +33,20 @@ header{
 	width: 100%;
 	top: 0px;
 }
-#me {
-	width: 400px;
-}
 #centered{
-	display: flex;
-	align-items: center;
-	justify-content: center;
+	text-align: center;
 	margin-top: 100px;
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.pictures{
+	width: 20%;
+	padding: 2%;
 }
 h1{
 	text-align: center;
 	font-family: 'Anton', sans-serif;
-}
-.arrow{
-	width: 30px;
-}
-#cv{
-	padding-top: 20px;
-	text-align: center;
 }
 @media screen  and (max-width: 580px){
 header{
