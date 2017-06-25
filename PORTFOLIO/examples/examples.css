@@ -98,6 +98,15 @@ table{
 	margin-left: -300px;
 	margin-top: -150px;
 }
+#text3{
+	position: absolute;
+	width: 150px;
+	text-align: left;
+	left: 50%;
+	margin-left: 70px;
+	margin-top: -40px;
+	padding-bottom: 50px;
+}
 @media screen  and (max-width: 580px){
 header{
 	background-color: white;
